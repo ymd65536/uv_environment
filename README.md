@@ -12,7 +12,7 @@
 
 ```bash
 uv venv
-uv sync
+uv sync --no-install-project
 ```
 
 ## Check
