@@ -4,6 +4,8 @@
 # python
 .pyc
 __pycache__
+.venv
+uv.lock
 bin
 lib
 lib64
