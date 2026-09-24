@@ -1,5 +1,5 @@
 [project]
-name = "uv-environment"
+name = "uv-template"
 version = "0.1.0"
 description = "Template repository for Python projects with uv"
 readme = "README.md"
