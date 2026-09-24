@@ -21,4 +21,4 @@ uv sync
 PYTHONDONTWRITEBYTECODE=1 uv run python -c "import sys; print(sys.dont_write_bytecode)"
 ```
 
-上記のように `PYTHONDONTWRITEBYTECODE=1` を付けて実行すると `__pycache__` を作成しません。
+`__pycache__` を出したくないコマンドは、上記のように `PYTHONDONTWRITEBYTECODE=1` を付けて実行してください（この設定は付与したコマンド実行時のみ有効です）。
