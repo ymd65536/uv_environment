@@ -16,10 +16,10 @@ uv venv
 uv sync
 ```
 
-## Run
+## Check
 
 ```bash
-uv run --env-file .env python --version
+uv run --env-file .env python -c "import sys; print(sys.dont_write_bytecode)"
 ```
 
 `.env.example` に `PYTHONDONTWRITEBYTECODE=1` を設定済みです。`.env` を作成して `--env-file .env` を付けて実行すると `__pycache__` を作成しません。
