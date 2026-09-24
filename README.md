@@ -11,7 +11,6 @@
 3. 依存関係を同期
 
 ```bash
-cp .env.example .env
 uv venv
 uv sync
 ```
@@ -22,4 +21,4 @@ uv sync
 PYTHONDONTWRITEBYTECODE=1 uv run python -c "import sys; print(sys.dont_write_bytecode)"
 ```
 
-`.env.example` に `PYTHONDONTWRITEBYTECODE=1` を設定済みです。`.env` を作成してシェルで読み込むか、上記のように環境変数を付与して実行すると `__pycache__` を作成しません。
+上記のように `PYTHONDONTWRITEBYTECODE=1` を付けて実行すると `__pycache__` を作成しません。
